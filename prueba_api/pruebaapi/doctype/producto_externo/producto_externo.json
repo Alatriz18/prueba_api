@@ -1,0 +1,95 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:product_id",
+ "creation": "2026-04-23 10:19:29.782054",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "producto_externo_section",
+  "product_id",
+  "title",
+  "description",
+  "price",
+  "category",
+  "stock",
+  "thumbnail"
+ ],
+ "fields": [
+  {
+   "fieldname": "producto_externo_section",
+   "fieldtype": "Section Break",
+   "label": "Producto Externo"
+  },
+  {
+   "fieldname": "product_id",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "ID Producto",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Nombre Producto",
+   "reqd": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Descripci\u00f3n"
+  },
+  {
+   "fieldname": "price",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Precio",
+   "reqd": 1
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Data",
+   "label": "Categor\u00eda"
+  },
+  {
+   "fieldname": "stock",
+   "fieldtype": "Int",
+   "label": "Stock"
+  },
+  {
+   "fieldname": "thumbnail",
+   "fieldtype": "Data",
+   "label": "Imagen"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-04-23 10:54:09.225922",
+ "modified_by": "kevin.santana4621@utc.edu.ec",
+ "module": "PruebaApi",
+ "name": "Producto Externo",
+ "naming_rule": "By fieldname",
+ "owner": "kevin.santana4621@utc.edu.ec",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
